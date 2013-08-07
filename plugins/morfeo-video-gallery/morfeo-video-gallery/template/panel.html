@@ -1,0 +1,94 @@
+﻿<div class="wrap"> 
+	<form method="post" action="">
+		<fieldset>
+	  <legend><strong>MORFEO GALLERY <?php echo $id; ?>. Write in your Posts: [morfeo_video <?php echo $id; ?> /]</strong></legend>
+
+			  <table width="100%" border="0" cellspacing="8" cellpadding="0">
+			    <tr>
+			      <td>Video URL's (Write the url for the youtube videos or the flv videos, a url video for line):</td>
+			      <td><textarea name="video<?php echo $id; ?>" cols="40" rows="8" id="video<?php echo $id; ?>"><?php echo $video; ?></textarea></td>
+			      <td>Video titles:</td>
+			      <td><textarea name="titles<?php echo $id; ?>" cols="40" rows="8" id="titles<?php echo $id; ?>"><?php echo $titles; ?></textarea></td>
+		        </tr>
+			    <tr>
+			      <td>Gallery Width(Number with px or %, default: 100%):</td>
+			      <td><input type='text' id='width<?php echo $id; ?>'  name='width<?php echo $id; ?>'  value='<?php echo $width; ?>'/></td>
+			      <td>Gallery Height (Number with px, default 300px):</td>
+			      <td><input type='text' id='height<?php echo $id; ?>'  name='height<?php echo $id; ?>'  value='<?php echo $height; ?>'/></td>
+		        </tr>
+			    <tr>
+			      <td>% Video Thumbnails space in module</td>
+			      <td><input type='text' id='tumb<?php echo $id; ?>'  name='tumb<?php echo $id; ?>'  value='<?php echo $tumb; ?>'/></td>
+			      <td>Video Thumbnails Rows(Number > 0):</td>
+			      <td><input type='text' id='row<?php echo $id; ?>'  name='row<?php echo $id; ?>'  value='<?php echo $row; ?>'/></td>
+		        </tr>
+			    <tr>
+			      <td>Video Thumbnails columns(Number > 0):</td>
+			      <td><input type='text' id='columns<?php echo $id; ?>'  name='columns<?php echo $id; ?>'  value='<?php echo $columns; ?>'/></td>
+			      <td>SEO Tags(Text):</td>
+			      <td><input type='text' id='tags<?php echo $id; ?>'  name='tags<?php echo $id; ?>'  value='<?php echo $tags; ?>'/></td>
+		        </tr>
+			    <tr>
+			      <td>Gallery round</td>
+			      <td><input type='text' id='round<?php echo $id; ?>'  name='round<?php echo $id; ?>'  value='<?php echo $round; ?>'/></td>
+			      <td>Design color 1</td>
+			      <td><input type='text' id='color1<?php echo $id; ?>'  name='color1<?php echo $id; ?>'  value='<?php echo $color1; ?>'/></td>
+		        </tr>
+			    <tr>
+			      <td>Design color 2</td>
+			      <td><input type='text' id='color2<?php echo $id; ?>'  name='color2<?php echo $id; ?>'  value='<?php echo $color2; ?>'/></td>
+			      <td>Skin Player Mode:</td>
+			      <td><select name="skin<?php echo $id; ?>" id="skin<?php echo $id; ?>">
+			        <option value="" <?php if($skin==0 || $skin=="") echo ' selected="selected"'; ?>>None</option>
+			        <option value="1" <?php if($skin==1) echo ' selected="selected"'; ?>>All</option>
+			        <option value="2" <?php if($skin==2) echo ' selected="selected"'; ?>>Fullscreen button</option>
+			        <option value="3" <?php if($skin==3) echo ' selected="selected"'; ?>>Sound button</option>
+			        <option value="4" <?php if($skin==4) echo ' selected="selected"'; ?>>Seek button</option>
+			        <option value="5" <?php if($skin==5) echo ' selected="selected"'; ?>>Fullscreen and sound button</option>
+			        <option value="6" <?php if($skin==6) echo ' selected="selected"'; ?>>Fullscreen and seek button</option>
+			        <option value="7" <?php if($skin==7) echo ' selected="selected"'; ?>>Seek and sound button</option>
+		          </select></td>
+		        </tr>
+			    <tr>
+			      <td>Autoplay?</td>
+			      <td><select name="autoplay<?php echo $id; ?>" id="autoplay<?php echo $id; ?>">
+			        <option value="1" <?php if($autoplay==1) echo ' selected="selected"'; ?>>On</option>
+			        <option value="0" <?php if($autoplay==0) echo ' selected="selected"'; ?>>Off</option>
+		          </select></td>
+			      <td>Visualization mode</td>
+			      <td><select name="controls<?php echo $id; ?>" id="controls<?php echo $id; ?>">
+			        <option value="" <?php if($controls==0 || $skin=="") echo ' selected="selected"'; ?>>Normal</option>
+			        <option value="4" <?php if($controls==4) echo ' selected="selected"'; ?>>DARKEN</option>
+			        <option value="5" <?php if($controls==5) echo ' selected="selected"'; ?>>DIFFERENCE</option>
+			        <option value="7" <?php if($controls==7) echo ' selected="selected"'; ?>>HARDLIGHT</option>
+			        <option value="8" <?php if($controls==8) echo ' selected="selected"'; ?>>LAYER</option>
+			        <option value="10" <?php if($controls==10) echo ' selected="selected"'; ?>>MULTIPLY</option>
+			        <option value="12" <?php if($controls==12) echo ' selected="selected"'; ?>>SHADER</option>
+			        <option value="13" <?php if($controls==13) echo ' selected="selected"'; ?>>SUBTRACT</option>
+		          </select>
+                   <input name="id" type="hidden" id="id" value="<?php echo $id; ?>" />
+                  </td>
+		        </tr>
+			    <tr>
+			      <td>&nbsp;</td>
+			      <td>&nbsp;</td>
+			      <td>&nbsp;</td>
+			      <td>&nbsp;</td>
+		        </tr>
+			    <tr>
+			      <td>&nbsp;</td>
+			      <td></td>
+			      <td>&nbsp;</td>
+			      <td></td>
+		        </tr>
+      </table>
+	<input type='submit' name='' value='SAVE MORFEO <?php echo $id; ?>' />
+		 
+      </fieldset>
+	</form>		 
+  <form method="post" action="">
+	  <input name="borrar" type="hidden" id="borrar" value="<?php echo $id; ?>">
+     <input type='submit' name='' value='Delete morfeo gallery <?php echo $id; ?>' />
+    </form>
+  <hr />
+</div>

@@ -1,0 +1,258 @@
+/*
+
+Theme Name: IQ Prototype
+Theme URI: 
+Description: E-commerce, Design, Mobile, Websites Services Provider
+Version: 1.0
+Author: IQ Prototype
+Author 
+Tags: Black, Gray, White, 2 Columns, Fixed Width, Custom-Header, Web Solution Provider
+
+*/
+
+
+/* 
+
+DISCLAIMER :
+-----------
+
+THIS DOCUMENT CONTAINS BASIC STRUCTURAL ELEMENTS AND CLASSES. WE HAVE LISTED OUT ALL THE POSSIBLE DEFAULT ELEMENTS/CLASSES, YOU CAN UPDATE/REMOVE OR CAN ADD ELEMENTS/CLASSES AS PER YOUR THEME AND HTML STRUCTURE.
+PLEASE REMOVE THE ELEMENTS THAT ARE NOT IN USE, DONT LEAVE THEM BLANK.
+
+REMOVE ALL INFORMATIONAL COMMENTS BEFORE YOU START TO DEVELOPE THEME. THESE COMMENTS ARE JUST FOR OUR INTERNAL USE.
+
+*/
+
+
+/* !!!!! GLOBAL ELEMENTS !!!!! */
+
+* { padding:0; margin:0; } 
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea, select, a, blockquote, table, td, th { font-family:Arial, Helvetica, sans-serif;} 
+
+body {margin:0; padding:6px 0 0 0; font-family:Arial, Helvetica, sans-serif; color:#505050;  background:url(images/iq-mainbg.gif) repeat-x left top #FFFFFF; font-size:12px; }
+
+h1 { font-size:16px; font-weight:bold; color:#3e3e3e; background:url(images/iq-border-btm.gif) repeat-x left bottom; padding:2px 0 5px 0;}
+h1 a{ color:#3e3e3e; }
+h1 span{ color:#aaaaaa;}
+h2 { font-size:14px; font-weight:bold; color:#505050; }
+h2 a{ color:#505050; }
+h3{font-size:12px; font-weight:bold; color:#505050; }
+h3 a{ color:#505050; }
+
+p { margin:0; padding:0; }
+
+a{ text-decoration:none; color:#727272; }
+a:hover{ text-decoration:underline; color:#000000; }
+a img{border:none;}
+
+ul, li{list-style:none;}
+
+
+/*___ end global elements ___*/
+
+
+/* !!!!! GLOBAL CLASSES !!!!! */
+
+.alignleft { float:left; }
+.alignright { float:right; }
+.alignnone { clear:both; }
+
+.clearfix:after {  content: "."; display:block; height:0; clear:both; visibility:hidden; }/* ----- clear fix for floats ----- */
+.clearfix { display:inline-block; }		
+* html .clearfix { height:1%; }/* hides clearfix from IE-mac */
+.clear { display:block; margin:0; padding:0; line-height:0; font-size:0; clear:both; }
+
+small, .small { font-size:9px; }
+.small{color:#FFFFFF;}
+
+
+/*___ end global classes ___*/
+
+
+
+/* !!!!! STRUCTURAL CLASSES !!!!! */
+
+.wrapper { width:993px; } 
+
+#header { height:76px; }
+
+#content { margin:10px 0 0 0; width:993px; padding:0; text-align:left; }
+
+
+/*	DEFINE COLUMN STRUCTURE */
+.widecolumn { width:747px;} 
+.narrowcolumn { width:246px; } 
+
+#footer { background:#222222; }
+
+/*___ end structural classes ___*/
+
+
+/* !!!!! ELEMENT SPECIFIC CLASSES !!!!! */
+
+/* LOGO */
+#logo a { display:block; width:178px; height:52px; text-indent:-9999px; text-decoration:none; background:url(images/iq-logo.gif) no-repeat !important; margin:19px 0 0 0;} 
+
+/* TOP LINKS */
+.top_links{ width:18%; margin:11px 0 0 0;}
+.top_links .client_login{background:url(images/iq-login.gif) no-repeat left top; padding:0 20px 0 30px; margin:0; font-size:11px; line-height:18px; font-weight:bold;}
+
+.top_links .blog{background:url(images/iq-blog.gif) no-repeat left top; padding:0 0 0 27px; font-size:11px; line-height:18px; margin:0 5px; font-weight:bold;}
+
+/* NAV */
+#nav { padding:11px 0; margin:0; width:100%; font-size:13px; font-weight:bold; text-align:right; }
+#nav ul { margin:0; padding:0; }
+#nav ul li { padding:0 margin:0; display:inline; position:relative; }
+#nav ul li a { color:#FFFFFF; padding:0 14px; }
+#nav ul li a:hover{background:url(images/iq-nav-hoverbg.gif) repeat-x; padding:11px 14px; color:#626262; text-decoration:none;}
+#nav .current_page_item{background:url(images/iq-nav-hoverbg.gif) repeat-x; padding:11px 14px; color:#626262; text-decoration:none;}
+
+#nav ul ul{ margin:0; padding:0; }
+
+#nav ul li ul { position:absolute; left:0px; top:27px; width:248px; display:none; text-align:left; font-size:11px; }
+#nav ul li:hover ul, #nav ul li.hover ul {display:block;}
+
+#nav ul li ul li {display:block; font-weight:bold; background:#bfbfbf; width:100%; padding:5px 0 5px 0px;  }
+#nav ul li ul li a {color:#FAF2ED; display:block; margin:0 5px 0 2px; padding:0 0 0 10px; line-height:18px; color:#FFFFFF;}
+#nav ul li ul li a span{ background:url(images/iq-nav-bullet.gif) no-repeat left 3px; padding:0 0 0 15px;  }
+#nav ul li ul li a:hover {background:#FFFFFF; -moz-border-radius:5px; -khtml-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; behavior:url(border-radius.htc); padding:0px 9px 0 10px; margin:0 5px 0 2px;}
+#nav ul li ul li a:hover span{ background:url(images/iq-nav-bullet-hover.gif) no-repeat left 3px; }
+/*#nav ul li ul li a:hover{ background:none; text-decoration:underline; display:block;}*/
+/*#nav ul li ul .current_page_item a{background:none ;}
+#nav ul li ul .current_page_item a span{background:none; color:#FFFFFF;}*/
+
+#nav ul li ul li ul { position:absolute; left:-2px; _left:-4px; top:32px; width:100px; display:none; }
+
+
+/* POST CLASSES */
+.post { }
+.post_w{width:64%;}
+.margin_top{margin:15x !important;}
+.entry { padding:0 5px; margin:10px 0;  color:#505050; }
+
+.entry a.readmore{color:#505050; font-weight:bold; text-decoration:none; margin:0 5px;  }
+
+.entry img{ float:left; margin:0px 10px 0px 0px;}
+
+.entry h1, .entry h2, .entry h3,.entry h4, .entry h5,.entry h6 { display:block; font-family:Arial, Helvetica, sans-serif; color:#505050; }
+.entry h1, .entry h1 a { font-size:15px; }
+.entry h2 { font-size:13px; color:#505050; }
+.entry h3 a { font-size:12px;}
+.entry h4 a { font-size:11px; }
+.entry h5 a { font-size:10px;}
+
+
+.entry p { margin-bottom:8px;}
+
+.entry img { margin:0 10px; }
+.entry img.alignleft { margin-right:5px; display:block; }
+.entry img.alignright { margin-left:5px !important; display:block; float:right !important; }
+
+.entry ul, .entry ol { padding:5px 0 10px 15px; }
+.entry li { font-size:12px; line-height:22px; }
+.entry li a { text-decoration:underline; }
+.entry li a:hover { text-decoration:none; }
+
+.entry ul { }
+.entry ul li { list-style:disc; }
+
+.entry ol { padding-left:25px; }
+.entry ol li { list-style:decimal; }
+
+.entry blockquote { padding:10px 50px; background-color:#abebfe; margin:10px 0; color:#00465b;}
+.entry blockquote:after {content: close-quote; margin:-40px 0px 30px 100%; }
+.entry blockquote:before {content: open-quote; margin:-5px 0 0 -40px; }
+.entry blockquote:before, blockquote:after { color:#3bb0d3; height:20px; display: block; font-size: 8em; width: 20px; }
+
+/* Additional CSS */
+.specification{padding:10px 0 15px 0; width:99%;}
+.specification .margin_top{margin:25px 0 0 5px ; width:70%;}
+.specification .width{width:50%;}
+
+/* Sidebar */
+.narrowcolumn .margin_left{ margin:0 0 0 16px;}
+.narrowcolumn .margin_bottom{margin:0 0 10px 0;}
+
+/* LIVE CHAT */
+.live_chatbg{background:url(images/iq-chat-topbg.gif) no-repeat; /*width:230px;*/ padding:25px 0 0 64px;}
+.live_chatbg .title{text-transform:uppercase; color:#FFFFFF; font-size:15px; font-weight:bold;}
+.live_chatbg .offline{background:#FFFFFF;  -moz-border-radius:10px; -khtml-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; padding:1px 8px 0 8px; margin:0 0 0 13px; font-size:10px; text-transform:uppercase;}
+.live_chatbg .offline a{}
+.live_chatmidbg{background:url(images/iq-livechat-midbg.gif) repeat-y; padding:10px 0 0px 6px;}
+.live_chatmidbg .mobile a{background:url(images/iq-chat-icn1.gif) no-repeat left top; width:42px; height:61px; display:block; }
+.live_chatmidbg .mobile a:hover{background:url(images/iq-chat-icn1-hover.gif) no-repeat left top; display:block;}
+.live_chatmidbg .yahoo a{background:url(images/iq-chat-icn2.gif) no-repeat left top; width:44px; height:61px; display:block; }
+.live_chatmidbg .yahoo a:hover{background:url(images/iq-chat-icn2-hover.gif) no-repeat left top; display:block;}
+.live_chatmidbg .msn a{background:url(images/iq-chat-icn3.gif) no-repeat left top; width:44px; height:61px; display:block; }
+.live_chatmidbg .msn a:hover{background:url(images/iq-chat-icn3-hover.gif) no-repeat left top; display:block;}
+.live_chatmidbg .skype a{background:url(images/iq-chat-icn4.gif) no-repeat left top; width:45px; height:61px; display:block; }
+.live_chatmidbg .skype a:hover{background:url(images/iq-chat-icn4-hover.gif) no-repeat left top; display:block;}
+.live_chatmidbg .gtalk a{background:url(images/iq-chat-icn5.gif) no-repeat left top; width:43px; height:61px; display:block; }
+.live_chatmidbg .gtalk a:hover{background:url(images/iq-chat-icn5-hover.gif) no-repeat left top; display:block;}
+
+.inner_midbg{background:url(images/iq-chat-midshad.gif) repeat-x; width:218px; height:26px; text-align:center; font-weight:bold; line-height:26px;}
+
+.sidebar { /*background:url(images/iq-sidebar-titlebg.gif) repeat-x; -moz-border-radius-topright:5px; -webkit-border-top-right-radius:5px; -moz-border-radius-topleft:5px; -webkit-border-top-left-radius:10px; -moz-border-radius: 32px;
+	-webkit-border-radius: 32px;
+	border-radius: 32px;
+	behavior: url(border-radius.htc);*/	 }
+.sidebar h2 { background:url(images/iq-sidebar-titlebullet.gif) no-repeat left 12px; margin:0 0 0 6px; padding:13px 0 0 25px; color:#FFFFFF; font-family:Verdana, Arial, Helvetica, sans-serif}
+.sidebar ul { }
+.sidebar ul li { }
+.sidebar ul li a { }
+
+/* Sidebar Shade BG */
+.sidebar_shad{margin:0; padding:0px; width:100%;}
+.sidebar_shad .leftshad{background:url(images/iq-sidebar-leftbg.gif) no-repeat left top; width:6px; height:40px; }
+.sidebar_shad .midshad{background:url(images/iq-sidebar-midbg.gif) repeat-x; height:40px; width:218px;}
+.sidebar_shad .rightshad{background:url(images/iq-sidebar-rightbg.gif) no-repeat ; width:6px; height:40px;}
+.sidebar_midbg{background:url(images/iq-sidebar-mainmid.gif) repeat-y;}
+.sidebar_midbg .pos_relative{position:relative; width:91%; padding:12px 10px;}
+.sidebar_midbg .prev_btn{position:absolute; left:0; top:36px;}
+.sidebar_midbg .next_btn{position:absolute; right:0px; top:36px;}
+
+/* Change Language */
+.flag_padding{padding:5px 13px;}
+.flag_padding img{margin:8px 5px;}
+
+/* FOOTER */
+.ftr_link{text-align:left; margin:0 25px 0 20px; padding:20px 0 0 0; width:20%; min-height:153px; }
+.ftr_link ul{margin:0; padding:0;}
+.ftr_link li{margin:0; padding:0; line-height:18px; }
+.ftr_link li h2{font-size:16px; font-weight:bold; color:#FFFFFF; margin:5px 0 10px 0;}
+.ftr_link li a{ color: #9a9b9d; background:url(images/iq-ftr-bullet.gif) no-repeat left 5px; padding:0 0 0 15px; margin:2px 0; }
+.ftr_logo{margin:57px 10px 0 10px; width:20%;}
+
+
+/*___ end structural classes ___*/
+
+
+/* COPY RIGHT */
+.copyright { background:#d3d3d3; padding:5px 0; font-size:11px; }
+.copyright a { color:#353535; }
+
+/*___ end misc. classes ___*/
+
+/* CSS 01.02.10 */
+.margin_h1 {margin:20px 0 0 0;}
+.inr_img_margin{margin:0px 25px 5px 10px;}
+.inr_postw{width:88%;}
+.h3_title_margin{margin:0 0 3px 0;}
+.inr_content{margin:0; padding:0;}
+.inr_content .readmore{background:url(images/iq-inner-arrow.gif) no-repeat left 5px; margin:0 5px; padding:0 0 0 10px; font-weight:bold; text-decoration:underline; color:#505050;}
+.inr_content .readmore:hover{text-decoration:none; color:#000000;}
+.banner_bg{background:#000000;}
+/* !!!!! GENERAL CLASSES !!!!! */
+
+/* CSS 09.02.10 */
+.client_margin{padding:25px 0 25px 0; border-bottom:1px dashed #e4e4e4;}
+.client_w{width:150px; margin:15px 5px; padding:5px; text-align:center;}
+.client_w img{border:1px solid #dadada;}
+.client_w h3{ margin:5px 0 10px 0;}
+.client_w h3 a{color:#999999;}
+.client_w h3 a:hover{color:#333333;}
+h2.uppercase{text-transform:uppercase;}
+.paging{padding:15px 0;}
+.paging .txt{color:#000000; font-weight:bold; margin:0 15px;}
+.paging img{margin:0 3px; padding:0;}

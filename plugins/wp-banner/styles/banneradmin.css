@@ -1,0 +1,68 @@
+td {  margin:0px;
+      border: 0px;
+      padding:5px;
+   }
+.banner-error {
+  	border: 1px solid #c24949;
+	background-color: #ffbcbc;
+	border-style: solid;
+	margin:0px;
+	padding:0px;
+  }
+.banner-inlayout{
+   width:382px;
+   height:230px;
+   background: #E5DCFF;
+   display:none;
+}
+.banner-table {
+   padding:10px;
+   border:1px;
+}
+.banner-radiopos{
+   width: 15px;
+   height: 2px;
+   background: #000000;
+}
+.banner-radiopospad{
+   margin: 5px;
+}
+#adcontainer{
+   margin-left:25%;
+   height: 30px;
+   width: 84px;
+   border-style:solid;
+   border-width: 1px;
+   border-color:#888A85;
+}
+.banner-nospace{
+   margin:0px;
+   padding:0px;
+   width:467px;
+   float: left;
+}
+#showButton{
+   display:none;
+   width: 24px;
+   height: 24px;
+   float: right;
+   
+}
+.banner-maintable{
+   width: 620px;
+
+}
+
+.banner-fieldset{
+   border-style:solid; 
+   border-width:1px; 
+   padding:10px;
+   border-color:#996666;
+   margin-top:10px;
+  /* width: 588px; */
+}
+
+.banner-statbg{
+   width: 732px;
+   height: 538;
+}

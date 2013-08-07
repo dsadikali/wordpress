@@ -1,0 +1,12 @@
+function my_render_ie_pie() {
+   echo '
+<!--[if lte IE 8]>
+<style type="text/css" media="screen">
+   .mainNav ul, .mainNav ul li a, .gradient-bg, .more-link,  #commentform #submit {
+      behavior: url('.trailingslashit(get_bloginfo("template_url")).'/css/pie.htc); position:relative;
+   }
+</style>
+<![endif]-->
+';
+}
+add_action('wp_head', 'my_render_ie_pie', 8);

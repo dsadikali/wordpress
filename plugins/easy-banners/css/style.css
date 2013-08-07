@@ -1,0 +1,21 @@
+.widefat textarea {
+	height: 60px;
+	font-size: 90%;
+	width: 100%;}
+
+
+
+.bottom {
+	border-bottom: 1px solid #ccc; 
+	}
+.topright {
+	border-top: 1px solid #ccc; 
+	border-right: 1px; solid #ccc;
+	}
+.top {
+	border-top: 1px solid #ccc; 
+	}
+.botright {
+	border-bottom: 1px solid #ccc; 
+	border-right: 1px; solid #ccc;
+	}

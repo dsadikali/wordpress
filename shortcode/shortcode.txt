@@ -1,0 +1,7 @@
+[readmore src="#"]
+
+function grayarrow($atts,$content=null)
+{
+	return '<span class="gray-arrow"><a href="'.$atts['src'].'"></a></span>';
+}
+add_shortcode( 'readmore', 'grayarrow' );

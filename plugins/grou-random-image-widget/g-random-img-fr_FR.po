@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GrandomI 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-28 02:33+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Grou <Grou29@gmail.com>\n"
+"Language-Team: Grou\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: g-random-img.php:41
+msgid "Display a random image from a directory located on the webserver"
+msgstr "Affiche une image aléatoire a partir d'un répertoire sur le serveur"
+
+#: g-random-img.php:384
+msgid "Example"
+msgstr "Exemple"
+
+#: g-random-img.php:384
+msgid "Reload"
+msgstr "Recharger"
+
+#: g-random-img.php:407
+msgid "Title:"
+msgstr "Titre:"
+
+#: g-random-img.php:413
+msgid "Image path:"
+msgstr "Chemin des fichiers:"
+
+#: g-random-img.php:418
+msgid "typeaction"
+msgstr "Comportement:"
+
+#: g-random-img.php:425
+msgid "Simple"
+msgstr "simple"
+
+#: g-random-img.php:426
+msgid "WithNav"
+msgstr "avec navigation"
+
+#: g-random-img.php:427
+msgid "WithRandom"
+msgstr "avec boutton aléatoire"
+
+#: g-random-img.php:428
+msgid "WithNavRandom"
+msgstr "avec navigation+aléatoire"
+
+#: g-random-img.php:429
+msgid "SlideShow"
+msgstr "défilement"
+
+#: g-random-img.php:436
+msgid "Slideshow wait (second):"
+msgstr "Temps d'attende du défilement (seconde)"
+
+#: g-random-img.php:441
+msgid "randOrNext"
+msgstr "Type de défilement"
+
+#: g-random-img.php:444
+msgid "Rand"
+msgstr "Aléatoire"
+
+#: g-random-img.php:447
+msgid "Next"
+msgstr "Suivant"
+
+#: g-random-img.php:451
+msgid "Random text:"
+msgstr "Texte pour l'aléatoire"
+
+#: g-random-img.php:456
+msgid "navbut"
+msgstr "Bouton de navigation:"
+
+#: g-random-img.php:481
+msgid "Max. image width x height:"
+msgstr "Hauteur max. de l'image:"
+
+#: g-random-img.php:489
+msgid "Show navigation (next/previous)"
+msgstr "Affiche les icones de navigation (suivant/précédent)"
+
+#: g-random-img.php:494
+msgid "Fixe size"
+msgstr "Taille Fixe"
+
+#: g-random-img.php:498
+msgid "Link To:"
+msgstr "Lien vers URL"
+
+#: g-random-img.php:505
+msgid "Disable"
+msgstr "Désactivé"
+
+#: g-random-img.php:506
+msgid "Full size image"
+msgstr "Image taille réelle"
+
+#: g-random-img.php:507
+msgid "Static URL"
+msgstr "Texte fixe"
+
+#: g-random-img.php:508
+msgid "URL in description file (*.txt)"
+msgstr "URL dans fichier de description (*.txt)"
+
+#: g-random-img.php:516
+msgid "Open in new window"
+msgstr "Ouvrir dans une nouvelle fenetre"
+
+#: g-random-img.php:522
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: g-random-img.php:529
+#: g-random-img.php:555
+msgid "None"
+msgstr "Aucun"
+
+#: g-random-img.php:530
+msgid "Image description"
+msgstr "Description de l'image"
+
+#: g-random-img.php:531
+msgid "Static text"
+msgstr "Texte fixe"
+
+#: g-random-img.php:539
+msgid "Use tooltip for legend"
+msgstr "Utiliser le tooltip pour la legende"
+
+#: g-random-img.php:548
+msgid "Effect"
+msgstr "Effet"
+
+#: g-random-img.php:556
+msgid "Fade"
+msgstr "Fondu"
+
+#: g-random-img.php:557
+msgid "Shrink"
+msgstr "Contraction"
+
+#: g-random-img.php:566
+msgid "Picture aspect"
+msgstr "Aspect photo"
+
+#: g-random-img.php:568
+msgid " (using Gd version: "
+msgstr "(Utilise GD version:"
+
+#: g-random-img.php:570
+msgid " Not found "
+msgstr "Introuvable"
+
+#: g-random-img.php:584
+msgid "Frame Size:"
+msgstr "Taille de marge de la photo:"
+
+#: g-random-img.php:589
+msgid "Rotate angle: (empty=> random)"
+msgstr "Angle de rotation (vide => aléatoire):"
+
+#: g-random-img.php:593
+msgid "Background color:"
+msgstr "Couleur de fond (si pas de transparence):"
+
+#: g-random-img.php:599
+msgid "Picture frame:"
+msgstr "Aspect photo:"
+
+#: g-random-img.php:648
+msgid "Pre-load full image"
+msgstr "Pré-chargement de l'image complète"
+
+#~ msgid "Appearance"
+#~ msgstr "Apparence"
+
+#, fuzzy
+#~ msgid "Behaviour"
+#~ msgstr "Comportement:"
+#~ msgid "Other"
+#~ msgstr "Autre"
+#~ msgid "Max. image width:"
+#~ msgstr "Largeur max. de l'image:"
+#~ msgid "Photo"
+#~ msgstr "Photo:"
+

@@ -1,0 +1,3 @@
+<?php if (function_exists('sociable_html')) {
+    echo sociable_html();
+} ?> 

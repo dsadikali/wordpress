@@ -1,0 +1,7 @@
+function crossmedial_js () {
+wp_enqueue_script('jquery',get_bloginfo('template_directory') . '/js/jquery.js', array(), '1.4.2', false);	
+wp_enqueue_script('general',get_bloginfo('template_directory') . '/js/main.js', array(), '1.0', false);
+wp_enqueue_script('general',get_bloginfo('template_directory') . '/js/css_browser_selector.js', array(), '', false);
+}
+
+add_action('init', 'crossmedial_js', 1);

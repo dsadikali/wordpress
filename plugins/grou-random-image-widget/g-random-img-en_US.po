@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GrandomI 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-02 23:44+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Grou <Grou29@gmail.com>\n"
+"Language-Team: Grou\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: g-random-img-admin.php:12
+msgid "Grou Random Image"
+msgstr ""
+
+#: g-random-img-admin.php:28
+msgid "Info"
+msgstr ""
+
+#: g-random-img-admin.php:29
+msgid "Appearance"
+msgstr ""
+
+#: g-random-img-admin.php:30
+msgid "Animations"
+msgstr ""
+
+#: g-random-img-admin.php:31
+msgid "Behaviour"
+msgstr ""
+
+#: g-random-img-admin.php:32
+msgid "Galleries"
+msgstr ""
+
+#: g-random-img-admin.php:33
+msgid "Other"
+msgstr ""
+
+#: g-random-img-admin.php:34
+msgid "Troubleshooting"
+msgstr ""
+
+#: g-random-img-admin.php:35
+msgid "Uninstall"
+msgstr ""
+
+#: g-random-img-admin.php:91
+msgid "Save Changes"
+msgstr ""
+
+#: g-random-img.php:41
+msgid "Display a random image from a directory located on the webserver"
+msgstr "Display a random image from a directory located on the webserver"
+
+#: g-random-img.php:350
+msgid "Example"
+msgstr "Example"
+
+#: g-random-img.php:350
+msgid "Reload"
+msgstr "Reload"
+
+#: g-random-img.php:375
+msgid "Title:"
+msgstr "Title:"
+
+#: g-random-img.php:381
+msgid "Image path:"
+msgstr "Image path:"
+
+#: g-random-img.php:386
+msgid "typeaction"
+msgstr "Behavior:"
+
+#: g-random-img.php:393
+#, fuzzy
+msgid "Simple"
+msgstr "Example"
+
+#: g-random-img.php:394
+msgid "WithNav"
+msgstr "with navigation"
+
+#: g-random-img.php:395
+msgid "WithRandom"
+msgstr "with random button"
+
+#: g-random-img.php:396
+msgid "WithNavRandom"
+msgstr "with navigation and random"
+
+#: g-random-img.php:397
+msgid "SlideShow"
+msgstr "slideshow"
+
+#: g-random-img.php:407
+msgid "Slideshow wait (second):"
+msgstr "Slideshow wait (second):"
+
+#: g-random-img.php:412
+msgid "randOrNext"
+msgstr "Slideshow type:"
+
+#: g-random-img.php:415
+msgid "Rand"
+msgstr "Random"
+
+#: g-random-img.php:418
+msgid "Next"
+msgstr "Cycle"
+
+#: g-random-img.php:423
+msgid "Random text:"
+msgstr "Random text:"
+
+#: g-random-img.php:428
+msgid "navbut"
+msgstr "Navigation button:"
+
+#: g-random-img.php:453
+#, fuzzy
+msgid "Max. image width x height:"
+msgstr "Max. image height:"
+
+#: g-random-img.php:461
+msgid "Show navigation (next/previous)"
+msgstr "Show navigation (next/previous)"
+
+#: g-random-img.php:466
+msgid "Fixe size"
+msgstr "Fixed size"
+
+#: g-random-img.php:471
+msgid "Link to url"
+msgstr "Link to url"
+
+#: g-random-img.php:476
+msgid "Tooltip"
+msgstr ""
+
+#: g-random-img.php:483
+msgid "None"
+msgstr ""
+
+#: g-random-img.php:484
+msgid "Image description"
+msgstr ""
+
+#: g-random-img.php:485
+msgid "Static text"
+msgstr ""
+
+#: g-random-img.php:497
+msgid "Picture aspect"
+msgstr "Picture aspect"
+
+#: g-random-img.php:504
+msgid "Frame Size:"
+msgstr "Frame Size:"
+
+#: g-random-img.php:509
+msgid "Rotate angle: (empty=> random)"
+msgstr "Rotate angle: (empty=> random)"
+
+#: g-random-img.php:513
+msgid "Background color:"
+msgstr "Background color:"
+
+#: g-random-img.php:519
+#, fuzzy
+msgid "Picture frame:"
+msgstr "Picture aspect"
+
+#: g-random-img.php:569
+msgid "Pre-load full image"
+msgstr "Pre-load full image"
+
+#~ msgid "Max. image width:"
+#~ msgstr "Max. image width:"
+#~ msgid "Photo"
+#~ msgstr "Picture:"
+

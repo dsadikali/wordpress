@@ -1,0 +1,584 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Manoj Thulasidas
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy AdSenser 2.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/easy-adsenser\n"
+"POT-Creation-Date: 2009-04-12 03:54+0000\n"
+"PO-Revision-Date: 2009-04-14 17:42+0700\n"
+"Last-Translator: Hendry Lee <hendry.lee@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: INDONESIA\n"
+
+#: admin.php:6
+msgid "Instructions"
+msgstr "Instruksi"
+
+#: admin.php:14
+msgid "How to Set it up"
+msgstr "Bagaimana memasangnya"
+
+#: admin.php:16
+#, php-format
+msgid "A few easy steps to setup %s"
+msgstr "Beberapa langkah mudah untung memasang %s"
+
+#: admin.php:21
+msgid "Generate AdSense code (from http://adsense.google.com &rarr; AdSense Setup &rarr; Get Ads)."
+msgstr "Hasilkan kode AdSense (dari http://adsense.google.com &rarr; AdSense Setup &rarr; Get Ads)."
+
+#: admin.php:26
+msgid "Cut and paste the AdSense code into the boxes below, deleting the existing text."
+msgstr "Ambil dan tempelkan kode AdSense ke kotak di bawah ini, hapus tulisan yang ada."
+
+#: admin.php:31
+msgid "Decide how to align and show the code in your blog posts."
+msgstr "Putuskan bagaimana menjajarkan dan menampilkan kode dalam tulisan blog Anda."
+
+#: admin.php:35
+msgid "Take a look at the Google policy option, and other options. The defaults should work."
+msgstr "Lihat pada opsi kebijaksanaan Google, dan opsi-opsi lainnya. Opsi bawaan harusnya berfungsi."
+
+#: admin.php:40
+#, php-format
+msgid "If you want to use the widgets, drag and drop them at %s Appearance (or Design) &rarr; Widgets %s"
+msgstr "Jika Anda mau menggunakan widget, tarik dan lepaskan pada %s Tampilan (atau Desain) &rarr; Widgets %s"
+
+#: admin.php:45
+msgid "Save the options, and you are done!"
+msgstr "Simpan opsi, dan selesai!"
+
+#: admin.php:51
+msgid "How to Control AdSense on Each Post"
+msgstr "Bagaimana mengontrol AdSense pada Setiap Tulisan"
+
+#: admin.php:52
+msgid "Need to control ad blocks on each post?"
+msgstr "Ingin mengontrol blok iklan pada setiap tulisan?"
+
+#: admin.php:54
+msgid ""
+"If you want to suppress AdSense in a particular post or page, give the <b><em>comment </em></b> \"&lt;!--noadsense--&gt;\" somewhere in its text.\r\n"
+"<br />\r\n"
+"<br />\r\n"
+"Or, insert a <b><em>Custom Field</em></b> with a <b>key</b> \"adsense\" and give it a <b>value</b> \"no\".<br />\r\n"
+"<br />\r\n"
+"Other <b><em>Custom Fields</em></b> you can use to fine-tune how a post or page displays AdSense blocks:<br />\r\n"
+"<b>Keys</b>:<br />\r\n"
+"adsense-top,\r\n"
+"adsense-middle,\r\n"
+"adsense-bottom,\r\n"
+"adsense-widget,\r\n"
+"adsense-search<br />\r\n"
+"<b>Values</b>:<br />\r\n"
+"left,\r\n"
+"right,\r\n"
+"center,\r\n"
+"no"
+msgstr ""
+"Jika Anda ingin menghilangkan AdSense pada tulisan atau halaman tertentu, berikan <b><em>komentar </em><b>  \"&lt;!--noadsense--&gt;\" di mana saja di dalam tulisannya.\r\n"
+"<br />\r\n"
+"<br />\r\n"
+"Atau, masukkan sebuah <b><em>Ruas Tersuai</em></b> dengan sebuah <b>kunci</b> \"adsense\" dan berikannya sebuah <b>nilai</b> \"no\".<br />\r\n"
+"<b><em>Ruas-Ruas Tersuai</em></b> lainnya dapat digunakan untuk mengatur bagaimana sebuah tulisan menampilkan blok AdSense:<br />\r\n"
+"<b>Kunci-kunci</b>:<br />\r\n"
+"adsense-top,\r\n"
+"adsense-middle,\r\n"
+"adsense-bottom,\r\n"
+"adsense-widget,\r\n"
+"adsense-search<br />\r\n"
+"<b>Nilai-nilai</b>:<br />\r\n"
+"left,\r\n"
+"right,\r\n"
+"center,\r\n"
+"no"
+
+#: admin.php:78
+msgid "Would you like to support this plugin effort?"
+msgstr "Apakah Anda ingin mendukung plugin ini?"
+
+#: admin.php:81
+msgid "Make a donation"
+msgstr "Donasikan"
+
+#: admin.php:82
+msgid " or "
+msgstr "atau"
+
+#: admin.php:84
+#: admin.php:299
+msgid "consider buying my book"
+msgstr "pertimbangkan untuk membeli buku saya"
+
+#: admin.php:92
+#, php-format
+msgid "Options (for the %s theme)"
+msgstr "Opsi (untuk tema %s)"
+
+#: admin.php:104
+msgid "Ad Blocks in Your Posts"
+msgstr "Blok Iklan pada Tulisan Anda"
+
+#: admin.php:105
+msgid "[Appears in your posts and pages]"
+msgstr "[Ditampilkan pada Tulisan atau Halaman]"
+
+#: admin.php:115
+msgid "Widgets for Your Sidebars"
+msgstr "Widget untuk Sidebar"
+
+#: admin.php:116
+msgid "[See <a href=\"widgets.php\"> Appearance (or Design) &rarr; Widgets</a>]"
+msgstr "[Lihat <a href=\"widgets.php\">Tampilan (atau Desain) &rarr; Widget</a>]"
+
+#: admin.php:130
+msgid "Lead-in AdSense Text"
+msgstr "Teks yang mendahului AdSense"
+
+#: admin.php:131
+msgid "(Appears near the beginning of the post)"
+msgstr "(Ditampilkan dekat permulaan tulisan)"
+
+#: admin.php:134
+#: admin.php:149
+#: admin.php:164
+#: admin.php:204
+#: admin.php:220
+msgid "Ad Alignment"
+msgstr "Penjajaran Iklan"
+
+#: admin.php:135
+#: admin.php:150
+#: admin.php:165
+#: admin.php:205
+#: admin.php:221
+msgid "(Where to show?)"
+msgstr "(Ditunjukkan di mana?)"
+
+#: admin.php:137
+#: admin.php:152
+#: admin.php:167
+#: admin.php:207
+#: admin.php:223
+msgid "Align Left"
+msgstr "Jajar Kiri"
+
+#: admin.php:138
+#: admin.php:153
+#: admin.php:168
+#: admin.php:208
+#: admin.php:224
+msgid "Center"
+msgstr "Tengah"
+
+#: admin.php:139
+#: admin.php:154
+#: admin.php:169
+#: admin.php:209
+#: admin.php:225
+msgid "Align Right"
+msgstr "Jajar Kanan"
+
+#: admin.php:140
+msgid "Suppress Lead-in Ad"
+msgstr "Hilangkan Iklan Pendahuluan"
+
+#: admin.php:145
+msgid "Mid-Post AdSense Text"
+msgstr "Teks AdSense di Tengah Tulisan"
+
+#: admin.php:146
+msgid "(Appears near the middle of the post)"
+msgstr "(Ditampilkan dekat pada pertengahan tulisan)"
+
+#: admin.php:155
+msgid "Suppress Mid-post Ad"
+msgstr "Hilangkan Iklan di Tengah Tulisan"
+
+#: admin.php:160
+msgid "Post Lead-out AdSense Text"
+msgstr "Teks Penutupan AdSense"
+
+#: admin.php:161
+msgid "(Appears near the end of the post)"
+msgstr "(Ditampilkan dekat dengan akhir tulisan)"
+
+#: admin.php:170
+msgid "Suppress Lead-out Ad"
+msgstr "Hilangkan Iklan Penutupan"
+
+#: admin.php:178
+msgid "Option on Google Policy"
+msgstr "Opsi untuk Kebijaksanaan Google"
+
+#: admin.php:179
+msgid "(Google policy allows no more than three ad blocks and three link units per page)"
+msgstr "Kebijaksanaan Google mengizinkan tidak lebih dari tiga blok iklan dan tiga unit taut per halaman"
+
+#: admin.php:182
+msgid "Three ad blocks (including the side bar widget, if enabled)."
+msgstr "Tiga blok iklan (termasuk widget side bar, jika diaktifkan)."
+
+#: admin.php:183
+msgid "Two ad blocks."
+msgstr "Dua blok iklan."
+
+#: admin.php:184
+msgid "One ad block."
+msgstr "Satu blok iklan."
+
+#: admin.php:185
+msgid "No ad blocks in posts."
+msgstr "Tidak ada blok iklan pada tulisan."
+
+#: admin.php:186
+msgid "Any number of ad blocks (At your own risk!)"
+msgstr "Berapapun jumlah blok iklan (Risiko Anda sendiri!)"
+
+#: admin.php:188
+msgid "Number of Link Units widgets (&le; 3) [Google serves only three]:"
+msgstr "Jumlah widget Unit Taut (&le; 3) [Google menyuguhkan tiga saja]:"
+
+#: admin.php:200
+msgid "AdSense Widget Text"
+msgstr "Teks Widget AdSense"
+
+#: admin.php:201
+msgid "(Appears in the Sidebar as a Widget)"
+msgstr "(Ditampilkan pada Sidebar sebagai Widget)"
+
+#: admin.php:210
+msgid "Suppress Widget"
+msgstr "Hilangkan Widget"
+
+#: admin.php:211
+msgid "Widget Title:"
+msgstr "Judul Widget:"
+
+#: admin.php:216
+msgid "AdSense Link-Units Text"
+msgstr "Teks Unit Taut AdSense"
+
+#: admin.php:217
+msgid "(Appears in the Sidebar as  Widgets)"
+msgstr "(Ditampilkan pada Sidebar sebagai Widget)"
+
+#: admin.php:226
+msgid "Suppress Link Units"
+msgstr "Hilangkan Unit Taut"
+
+#: admin.php:227
+msgid "Link Unit Title:"
+msgstr "Judul Unit Taut:"
+
+#: admin.php:232
+msgid "Google Search Widget"
+msgstr "Widget Pencarian Google"
+
+#: admin.php:233
+msgid "(Adds a Google Search Box to your sidebar)"
+msgstr "(Tambahkan sebuah Kotak Pencarian Google pada sidebar Anda)"
+
+#: admin.php:236
+msgid "Search Title"
+msgstr "Judul Pencarian"
+
+#: admin.php:237
+msgid "(Title of the Google Search Widget)"
+msgstr "(Judul dari Widget Pencarian Google)"
+
+#: admin.php:241
+msgid "Suppress Search Box"
+msgstr "Hilangkan Kotak Pencarian"
+
+#: admin.php:242
+msgid "Custom Title:"
+msgstr "Judul Tersuai:"
+
+#: admin.php:250
+msgid "Other Options"
+msgstr "Opsi-Opsi Lainnya"
+
+#: admin.php:252
+msgid "Allow ad blocks in feeds. [Please report any problems with this option.]"
+msgstr "Perkenankan blok iklan dalam feed. [Mohon laporkan segala masalah yang ada dengan opsi ini.]"
+
+#: admin.php:253
+msgid "Prioritize sidebar widget. (Always shows the widget, if enabled.)"
+msgstr "Prioritaskan widget sidebar. (Selalu ditampilkan pada widget, jika diaktifkan.)"
+
+#: admin.php:254
+msgid "Force mid-text ad (if enabled) even in short posts."
+msgstr "Paksakan iklan di pertengahan tulisan (jika diaktifkan) walaupun tulisannya pendek."
+
+#: admin.php:255
+msgid "Show ads only in posts (and not on pages)."
+msgstr "Tampilkan iklan hanya di tulisan (dan tidak pada halaman)."
+
+#: admin.php:257
+msgid "Link-backs to"
+msgstr "Pasang taut ke"
+
+#: admin.php:258
+msgid "(Consider showing at least one link.)"
+msgstr "(Pertimbangkan untuk menampilkan setidaknya satu taut.)"
+
+#: admin.php:260
+msgid "Show a link under every ad block."
+msgstr "Tampilkan sebuah taut di bawah setiap blok iklan."
+
+#: admin.php:261
+msgid "Show the link only under the first ad block."
+msgstr "Tampilkan taut hanya di bawah blok iklan pertama."
+
+#: admin.php:262
+msgid "Show the link at the bottom of your blog page."
+msgstr "Tampilkan taut pada akhir dari halaman blog."
+
+#: admin.php:263
+msgid "Show no links to my blog anywhere (Are you sure?!)"
+msgstr "Jangan tampilkan taut pada blog saya di mana pun (Apakah Anda yakin?)"
+
+#: admin.php:273
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: admin.php:273
+msgid "Save the changes as specified above"
+msgstr "Simpan perubahan seperti dirincikan di atas"
+
+#: admin.php:274
+msgid "Reset Options"
+msgstr "Opsi Reset"
+
+#: admin.php:274
+#: admin.php:281
+#: admin.php:284
+msgid "Discard all your changes and load defaults. (Are you quite sure?)"
+msgstr "Buang semua perubahan Anda dan isi dengan bawaan. (Apakah Anda cukup yakin?)"
+
+#: admin.php:275
+msgid "Clean Database"
+msgstr "Bersihkan Database"
+
+#: admin.php:276
+msgid "Uninstall"
+msgstr "Bongkar"
+
+#: admin.php:280
+msgid "This <b>Reset Options</b> button discards all your changes and loads the default options. This is your only warning!"
+msgstr "Tombol <b>Opsi Reset</b> membuang semua perubahan dan mengisi dengan opsi bawaan. Ini adalah peringatan satu-satunya!"
+
+#: admin.php:283
+msgid "The <b>Database Cleanup</b> button discards all your AdSense settings you have saved so far for <b>all</b> the themes, including the current one. Use it only if you know that you won't be using these themes. Please be careful with all database operations -- keep a backup."
+msgstr "Tombol <b>Pembersihan Database</b> membuang semua pengaturan AdSense Anda yang telah disimpan sejauh ini untuk <b>semua</b> tema, termasuk yang ini. Pakai hanya jika Anda tau Anda tidak akan menggunakan tema ini. Mohon berhati-hati dengan semua operasi database - simpan cadangannya."
+
+#: admin.php:286
+#, php-format
+msgid "The <b>Uninstall</b> button really kills %s after cleaning up all the options it wrote in your database. This is your only warning! Please be careful with all database operations -- keep a backup."
+msgstr "Tombol <b>Bongkar</b> benar-benar membuang %s setelah membersihkan semua opsi yang disimpan dalam database. Ini adalah peringatan satu-satunya! Mohon berhati-hati dengan operasi database - simpan cadangannya."
+
+#: admin.php:287
+msgid "Kill this plugin. (Are you quite sure?)"
+msgstr "Hapus plugin ini. (Apakah Anda yakin?)"
+
+#: admin.php:291
+msgid "Support"
+msgstr "Dukungan"
+
+#: admin.php:296
+msgid "If you would like to support my efforts, please visit (and link-back to) my blog"
+msgstr "Jika Anda ingin mendukung usaha saya, mohon kunjungi (dan kirim taut ke) blog saya"
+
+#: admin.php:299
+msgid "If you like the content and style of my blog,"
+msgstr "Jika Anda menyukai isi dan gaya dari blog saya,"
+
+#: admin.php:324
+msgid "Support through direct donation."
+msgstr "Dukung melalui donasi langsung."
+
+#: admin.php:326
+msgid "If you find yourself making a lot of money using this plugin, consider making a donation."
+msgstr "Jika Anda mendapatkan banyak uang dari plugin ini, mohon berikan donasi."
+
+#: admin.php:336
+msgid "Please report any problems. And share your thoughts and comments."
+msgstr "Mohon laporkan masalah apa pun. Dan berbagi pikiran dan komentar Anda."
+
+#: admin.php:336
+msgid "Post it in the WordPress forum"
+msgstr "Tulis di forum WordPress"
+
+#: admin.php:336
+msgid "[WordPress Forum]"
+msgstr "[Forum WordPress]"
+
+#: admin.php:336
+msgid "Or"
+msgstr "Atau"
+
+#: admin.php:336
+msgid "Contact the plugin author through email"
+msgstr "Hubungi penulis plugin ini melalui email"
+
+#: admin.php:336
+msgid "[Email Author]"
+msgstr "[Email Penulis]"
+
+#: admin.php:343
+msgid "puts a tiny link below the (first) ad unit it displays like this:"
+msgstr "taruh taut kecil di bawah unit iklan (pertama) ditampilkan sebagai berikut:"
+
+#: admin.php:361
+msgid "Consider leaving it unchanged. If you must suppress it, please use the Link-back options above."
+msgstr "Pertimbangkan untuk tidak mengubahnya. Jika Anda harus menghilangkannya, harap pergunakan opsi pengembalian Taut di atas."
+
+#: admin.php:365
+msgid "Check out my other plugin efforts:"
+msgstr "Lihat juga plugin saya yang lain:"
+
+#: admin.php:368
+msgid "To modify the color scheme of your themes with no CSS/Stylesheet editing."
+msgstr "Untuk memodifikasi skema warna dari tema tanpa menyunting CSS/Stylesheet."
+
+#: admin.php:371
+msgid "To translate LaTeX formulas like this [math](a+b)^2 = a^2 + b^2 + 2ab[/math] into this:"
+msgstr "Untuk menerjemahkan formula LaTeX seperti ini [math](a+b)^2 = a^2 + b^2 +2ab[/math] ke berikut ini:"
+
+#: admin.php:374
+msgid "My lean and mean AdSense plugin. No mess, no fuss."
+msgstr "Plugin AdSense saya yang ringan dan baik. Tanpa kekacauan, tanpa kekuatiran."
+
+#: admin.php:384
+msgid "Credits"
+msgstr "Kredit"
+
+#: admin.php:388
+msgid "%s uses the excellent Javascript/DHTML tooltips by %s"
+msgstr "%s memakai tooltip JavaScript/DTHML yang sempurna oleh %s"
+
+#: admin.php:384
+msgid "Future Plans"
+msgstr "Rencana Masa Depan"
+
+#: admin.php:388
+msgid "Make the Google Link Units widget multi-insertable. [In version 2.0, the Link Units widgets are repeated because I cannot figure out how to do multi-insertable widgets in a neat way.]"
+msgstr "Buat widget Unit Taut Google dapat ditampilkan berulang kali. [Dalam versi 2.0, widget Unit Taut diulang karena saya tidak dapat menemukan cara bagaimaan menampilkan widget berulang kali dengan cara yang rapi.]"
+
+#: admin.php:391
+msgid "Enable ad blocks in category view (User request)."
+msgstr "Aktifkan blok iklan pada tampilan kategori (Permintaan pemakai)."
+
+#: admin.php:394
+msgid "Release translated versions of the plugin. (Need your help!)"
+msgstr "Merilis versi terjemahand ari plugin ini. (Butuh bantuan Anda!)"
+
+#: easy-adsenser.php:242
+msgid "Settings Updated."
+msgstr "Pengaturan telah diperbarui."
+
+#: easy-adsenser.php:249
+msgid "Ok, all your settings have been discarded!"
+msgstr "Ok, semua pengaturan telah dibuang!"
+
+#: easy-adsenser.php:269
+msgid "Database has been cleaned. All your options for this plugin (for all themes) have been removed."
+msgstr "Database telah dibersihkan. Semua opsi Anda untuk plugin ini (dan untuk semua tema) telah disingkirkan."
+
+#: easy-adsenser.php:275
+msgid "This plugin has been deactivated."
+msgstr "Plugin ini telah dimatikan."
+
+#: easy-adsenser.php:276
+msgid "Refresh"
+msgstr "Perbarui lagi"
+
+#: easy-adsenser.php:286
+msgid ""
+"Error locating the admin page!\n"
+"Ensure admin.php exists, or reinstall the plugin."
+msgstr ""
+"Kesalahan dalam mencari lokasi admin!\n"
+"Pastikan admin.php ada, atau pasang ulang plugin ini."
+
+#: easy-adsenser.php:304
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: easy-adsenser.php:472
+msgid "Sponsored Links"
+msgstr "Taut sponsor"
+
+#: easy-adsenser.php:551
+msgid "Easy AdSenser: Show a Google AdSense block in your sidebar as a widget"
+msgstr "Easy AdSenser: Tampilkan sebuah blok AdSense pada sidebar sebagai sebuah widget"
+
+#: easy-adsenser.php:556
+msgid "Easy AdSenser: Show a Google Search Box in your sidebar as a widget"
+msgstr "Easy AdSenser: Tampilkan sebuah Kotak Pencarian Google pada sidebar sebagai sebuah widget"
+
+#: easy-adsenser.php:600
+msgid "Easy AdSenser: Show a Google Links Unit in your sidebar as a widget"
+msgstr "Easy AdSenser: Tampilkan sebuah Unit Taut Google pada sidebar sebagai sebuah widget"
+
+#. Plugin Name of an extension
+msgid "Easy AdSenser"
+msgstr "Easy AdSenser"
+
+#. Plugin URI of an extension
+msgid "http://www.thulasidas.com/adsense"
+msgstr "http://www.thulasidas.com/adsense"
+
+#. Description of an extension
+msgid "Easiest way to show AdSense and make money from your blog. Configure it at <a href=\"options-general.php?page=easy-adsenser.php\">Settings &rarr; Easy AdSenser</a>, or use the \"Settings\" link on the right."
+msgstr "Cara termudah untuk menampilkan AdSense dan menghasilkan uang dari blog Anda. Konfigurasi pada <a href=\"options-general.php?page=easy-adsenser.php\">Pengaturan &rarr; Easy AdSenser</a>, atau pergunakan taut \"Pengaturan\" di sebelah kanan."
+
+#. Author of an extension
+msgid "Manoj Thulasidas"
+msgstr "Manoj Thulasidas"
+
+#. Author URI of an extension
+msgid "http://www.thulasidas.com"
+msgstr "http://www.thulasidas.com"
+
+### FOR AdSense Now! ##########################################################
+#: admin.php:96
+msgid "Suppress"
+msgstr "Hilangkan"
+
+#: admin.php:98
+msgid "Top"
+msgstr "Atas"
+
+#: admin.php:109
+msgid "Middle"
+msgstr "Tengah"
+
+#: admin.php:120
+msgid "Bottom"
+msgstr "Akhir"
+
+#: admin.php:214
+msgid "A complete solution for everything AdSense releated."
+msgstr "Solusi lengkap untuk segala sesuatu yang berkaitan dengan AdSense."
+
+#: admin.php:215
+msgid "If you feel that you need more features (sidebar widgets, link units, Google searchbox etc.), consider my all-in-one plugin"
+msgstr "Jika Anda merasa membutuhkan fitur tambahan (widget sidebar, unit taut, kotak pencarian Google dsb.), pertimbangkan plugin all-in-one saya"
+
+#. Plugin Name of an extension
+msgid "AdSense Now!"
+msgstr "AdSense Sekarang!"
+
+#. Description of an extension
+msgid "Get started with AdSense now, and make money from your blog. Configure it at <a href=\"options-general.php?page=adsense-now.php\">Settings &rarr; AdSense Now!</a>, or use the \"Settings\" link on the right."
+msgstr "Mulai dengan AdSense sekarang, dan hasilkan uang dari blog Anda. Konfigurasi pada <a href=\"options-general.php?page=adsense-now.php\">Pengaturan &rarr; AdSense Sekarang!</a>, atau pergunakan taut \"Pengaturan\" di sebalah kanan."
+

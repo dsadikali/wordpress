@@ -1,0 +1,11 @@
+function getCustomField_value($theField) {
+	global $post;
+		$block = get_post_meta($post->ID, $theField);
+		if($block){
+			foreach(($block) as $blocks) {
+				return $blocks;
+			}
+	}
+}
+
+ getCustomField_value('Select  post'); take value from: [Select post]
